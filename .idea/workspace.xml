@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89ba12a0-2481-422a-9b82-6c61d7161395" name="Changes" comment="update timestamps in index.html and problems-report.html" />
+    <list default="true" id="89ba12a0-2481-422a-9b82-6c61d7161395" name="Changes" comment="update .gitignore and IDE configuration files">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +64,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -106,6 +108,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -115,7 +120,7 @@
       <recent name="C:\Users\danie\dev\qa\archetype-karate-app\src\test\java\dev\daniesteb\archetypekarateapp\features\petstore" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TestRunner.testRunner">
+  <component name="RunManager" selected="Gradle.archetype-karate-app [build]">
     <configuration name="TestRunner.testRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,8 +186,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestRunner.testRunner" />
         <item itemvalue="Gradle.archetype-karate-app [build]" />
+        <item itemvalue="Gradle.TestRunner.testRunner" />
         <item itemvalue="JUnit.Whole project" />
         <item itemvalue="Gradle.archetype-karate-app [build]" />
         <item itemvalue="JUnit.Whole project" />
@@ -208,7 +213,7 @@
       <workItem from="1750301594188" duration="1562000" />
       <workItem from="1750304337422" duration="1176000" />
       <workItem from="1750305540252" duration="1840000" />
-      <workItem from="1750307441663" duration="283000" />
+      <workItem from="1750307441663" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="initialize archetype-karate-app with Gradle setup and basic application structure">
       <option name="closed" value="true" />
@@ -274,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750307652719</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update .gitignore and IDE configuration files">
+      <option name="closed" value="true" />
+      <created>1750307809070</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750307809070</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +299,7 @@
     <MESSAGE value="update Karate dependencies in build.gradle to latest versions" />
     <MESSAGE value="initialize archetype-karate-app with project structure and configuration files" />
     <MESSAGE value="update timestamps in index.html and problems-report.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update timestamps in index.html and problems-report.html" />
+    <MESSAGE value="update .gitignore and IDE configuration files" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore and IDE configuration files" />
   </component>
 </project>
