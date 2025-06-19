@@ -1,6 +1,5 @@
 package dev.daniesteb.archetypekarateapp;
 
-import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.intuit.karate.Results;
@@ -22,7 +21,6 @@ import net.minidev.json.JSONArray;
 import net.minidev.json.parser.JSONParser;
 import net.minidev.json.parser.ParseException;
 import org.apache.commons.io.FileUtils;
-import org.junit.jupiter.api.Assertions;
 
 public class TestRunner {
 
@@ -67,7 +65,7 @@ public class TestRunner {
     try (FileReader reader = new FileReader(filePath)) {
       JSONArray jsonArray = (JSONArray) new JSONParser().parse(reader);
       if (!jsonArray.isEmpty()) {
-        jsonReport = jsonArray.get(0);
+        jsonReport = jsonArray.getFirst();
       }
     } catch (IOException | ParseException e) {
       logger.log(Level.WARNING, ERROR_MSG, e);
