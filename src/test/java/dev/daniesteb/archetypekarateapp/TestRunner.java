@@ -29,8 +29,8 @@ public class TestRunner {
 
   @Test
   public void testRunner() throws IOException {
-    Results results = Runner.path("src/test/java/com/pichincha")
-        .tags("@eliminarmascotaV1").outputCucumberJson(true).parallel(1);
+    Results results = Runner.path("src/test/java/dev/daniesteb/archetypekarateapp")
+        .tags("@CasoPositivo").outputCucumberJson(true).parallel(1);
 
     String karateOutputPath = "build/karate-reports";
     generateReport(karateOutputPath);
